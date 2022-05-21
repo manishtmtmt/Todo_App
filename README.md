@@ -1,2 +1,2 @@
-# Todo_App
+# React-Todo
 Created with CodeSandbox

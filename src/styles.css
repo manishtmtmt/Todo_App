@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Todo-body {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+.todoList {
+  margin-bottom: 20px;
+}
+
+.div2 {
+  border: 1px solid;
+  width: 45%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div3 {
+  width: 45%;
+  margin: auto;
+  border: 1px solid;
+  text-align: left;
+}
+
+.div3 span:nth-child(2) {
+  margin-left: 30px;
+}
+
+.toggleBtn {
+  padding: 4px 12px;
+  background-color: green;
+  color: white;
+}
+
+.checkbox {
+  cursor: pointer;
+}
