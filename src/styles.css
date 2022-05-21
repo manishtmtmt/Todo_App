@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+body {
+  background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wHfY?ver=4766");
+}
+
 .Todo-body {
   width: 30%;
   margin: auto;
@@ -11,6 +15,12 @@
 
 .todoList {
   margin-bottom: 20px;
+}
+
+@media all and (min-width: 300px) and (max-width: 740px) {
+  .Todo-body {
+    width: 80%;
+  }
 }
 
 .div2 {
@@ -22,10 +32,11 @@
 }
 
 .div3 {
-  width: 45%;
+  width: 44%;
   margin: auto;
   border: 1px solid;
   text-align: left;
+  padding-left: 5px;
 }
 
 .div3 span:nth-child(2) {
